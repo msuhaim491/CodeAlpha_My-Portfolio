@@ -1,56 +1,43 @@
 <div align="center">
-	<h1> My Portfolio </h1>
+	<h1>🌐 My Portfolio</h1>
+	<p>A personal portfolio website built as part of the <b>CodeAlpha Internship Program</b>.</p>
 </div>
 
-## Snapshot 📸
+---
+
+## 🧭 Overview
+
+This is a responsive and modern **personal portfolio website** that showcases my projects, skills, and achievements.  
+It was developed as part of my CodeAlpha Internship to demonstrate web development proficiency.
+
+---
+
+## 📸 Snapshot
 ![Portfolio Landing Page](https://user-images.githubusercontent.com/60526129/220429098-094368a0-c117-4036-a113-a625cf563c3c.png)
 
+---
 
-## Tech Stack ✨
+## 🧠 Features
+- Responsive and visually appealing layout  
+- Smooth animations using **Framer Motion**  
+- Sections for About, Skills, Projects, and Contact  
+- Easy to update and customize  
+- Deployed via **Netlify**
 
-- [React.js](https://reactjs.org/) - UI Library
-- [Framer Motion](https://www.framer.com/motion/) - Animations
-- [Create React App](https://create-react-app.dev/) - Build tool
-- [Netlify](https://www.netlify.com/) - Hosting and Deployment
+---
 
-## How to run locally 💻
+## 🛠️ Tech Stack
+- ⚛️ [React.js](https://reactjs.org/) — UI Library  
+- 🎞️ [Framer Motion](https://www.framer.com/motion/) — Animations  
+- 🏗️ [Create React App](https://create-react-app.dev/) — Build tool  
+- ☁️ [Netlify](https://www.netlify.com/) — Hosting and Deployment
 
-Follow these steps to run My Portfolio in your local machine.
+---
 
-### Clone this repository
+## 💻 Run Locally
 
+Follow these steps to run the portfolio on your machine:
+
+### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/Pappyjay23/my-portfolio-1.git
-```
-
-### Navigate to directory
-
-```bash
-cd my-portfolio-1
-```
-
-### Install NPM
-
-```bash
-npm install
-```
-
-### Run
-
-Run the development server to view the app.
-
-```bash
-npm start
-```
-
-Now, you can navigate to http://localhost:3000/ to view the app.
-
-### Build
-
-```bash
-npm run build
-```
-
-## Credits ✍
-
-Implementation by [@Pappyjay23](https://github.com/Pappyjay23)
+git clone https://github.com/msuhaim491/CodeAlpha_My-Portfolio.git
