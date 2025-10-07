@@ -13,7 +13,7 @@ It was developed as part of my CodeAlpha Internship to demonstrate web developme
 ---
 
 ## 📸 Snapshot
-![Portfolio Landing Page](D:\New folder\my-portfolio-1-main\my-portfolio-1-main\public\images\snapshot.png)
+![Portfolio Landing Page](https://raw.githubusercontent.com/msuhaim491/CodeAlpha_My-Portfolio/main/public/snapshot.png)
 
 ---
 
