@@ -1,0 +1,103 @@
+.services-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.services-card {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding: 3rem;
+    background: var(--glass-bg);
+    backdrop-filter: var(--glass-backdrop);
+    -webkit-backdrop-filter: var(--glass-backdrop);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    transition: all var(--transition-normal);
+    box-shadow: var(--glass-shadow-light);
+    position: relative;
+    overflow: hidden;
+}
+
+.services-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, var(--pure-black), transparent);
+    opacity: 0.6;
+    transform: scaleY(0);
+    transition: transform var(--transition-normal);
+}
+
+.services-card:hover::before {
+    transform: scaleY(1);
+}
+
+.services-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--glass-shadow);
+    border-color: var(--pure-black);
+}
+
+.services-icon {
+    font-size: 2.5rem;
+    color: var(--pure-black);
+    margin-bottom: 1.5rem;
+    transition: all var(--transition-normal);
+}
+
+.services-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: var(--charcoal);
+    font-family: var(--font-primary);
+    letter-spacing: -0.01em;
+}
+
+.services-desc {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: var(--dark-gray);
+    font-weight: 400;
+    font-family: var(--font-primary);
+}
+
+.services-card:hover .services-icon {
+    transform: scale(1.1);
+    color: var(--charcoal);
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .services-card {
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .services-icon {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .services-title {
+        font-size: 1.2rem;
+    }
+    
+    .services-desc {
+        font-size: .7rem;
+    }
+}

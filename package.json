@@ -1,0 +1,46 @@
+{
+  "name": "my-portfolio-1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^13.5.0",
+    "caniuse-lite": "^1.0.30001745",
+    "framer-motion": "^7.6.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-router-dom": "^6.4.2",
+    "react-scroll": "^1.8.8",
+    "react-toastify": "^10.0.6",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "npx --yes react-scripts@5.0.1 start",
+    "build": "npx --yes react-scripts@5.0.1 build",
+    "test": "npx --yes react-scripts@5.0.1 test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}

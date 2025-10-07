@@ -1,0 +1,64 @@
+/* Scroll to Top Button Styles */
+.scroll-to-top {
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+	z-index: 1000;
+	background: var(--glass-bg-light);
+	backdrop-filter: var(--glass-backdrop);
+	-webkit-backdrop-filter: var(--glass-backdrop);
+	border: 1px solid var(--glass-border);
+	border-radius: 12px;
+	padding: 1rem;
+	cursor: pointer;
+	transition: all var(--transition-normal);
+	box-shadow: var(--glass-shadow-light);
+	color: var(--pure-black);
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.2rem;
+}
+
+.scroll-to-top:hover {
+	background: var(--glass-bg);
+	border-color: var(--glass-border-light);
+	box-shadow: var(--glass-shadow-hover);
+	transform: translateY(-3px) scale(1.05);
+	color: var(--charcoal);
+}
+
+.scroll-to-top.show {
+	visibility: visible;
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.scroll-to-top.hide {
+	visibility: hidden;
+	opacity: 0;
+	transform: translateY(20px);
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+	.scroll-to-top {
+		bottom: 1.5rem;
+		right: 1.5rem;
+		width: 45px;
+		height: 45px;
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.scroll-to-top {
+		bottom: 1rem;
+		right: 1rem;
+		width: 40px;
+		height: 40px;
+		font-size: 0.9rem;
+	}
+}
